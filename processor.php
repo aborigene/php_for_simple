@@ -19,9 +19,18 @@ class Processor {
 	}
 
 	function processFiles() {
+		$max_loop = 4;
 		$files = $this->loadFiles(null);
+		printf("Loaded....");
+		$loop = 0;
 		foreach($files as $file_from_list){
+			printf("Loop $loop....\n");
 			$this->processFile($file_from_list);
+			$loop+=1;
+			if ($loop == $max_loop) {
+				printf("Breaking....");
+				break;
+			}
 		
 		}
 	}
@@ -36,7 +45,7 @@ class Processor {
 			pcntl_wait($status); //Protect against Zombie children
 			printf("Parent finished...\n");
 		} else {
-			$php_binary = "php-src/sapi/cli/php";
+			$php_binary = "/home/ec2-user/php-src/sapi/cli/php";
 			passthru("$php_binary sub_processor.php $file_to_process");
 		}
 	}
@@ -46,7 +55,10 @@ class Processor {
 	}
 
 	function loadFiles($path) {
-		if ($path === null)	$directory = '/home/ec2-user';
+		if ($path === null)	{
+			$directory = getcwd();//'/home/ec2-user/php_fork_simple';
+			// $currentDir = getcwd();
+		}
 		else $directory = $path;
 
 		$files = [];
@@ -66,10 +78,14 @@ class Processor {
   }
   //end class
 
+printf("starting trace");
+simple_trace();
+printf("finished trace");
+
 $processor=new Processor();
-printf("Sleeping...");
-sleep(20);
-printf("Continuing...");
+// printf("Sleeping...");
+// sleep(20);
+// printf("Continuing...");
 $processor->processFiles();
 
 
