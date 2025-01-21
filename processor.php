@@ -6,6 +6,16 @@ class Processor {
 	public $color;
   
 	// Methods
+	function doSomething(){
+		printf("starting trace");
+		// redis_call_non_named_cluster();
+		
+		// redis_call_named_cluster();
+		//fake_http_request();
+		simple_trace();
+		printf("finished trace");
+	}
+
 	function processData1() {
 	  for ($i=0; $i<1000; $i++){
 		printf("FAKE PROCESS 1: %d\n", $i);
@@ -78,40 +88,40 @@ class Processor {
   }
   //end class
 
-printf("starting trace");
-simple_trace();
-printf("finished trace");
 
-$processor=new Processor();
+
+#$processor=new Processor();
 // printf("Sleeping...");
 // sleep(20);
 // printf("Continuing...");
-$processor->processFiles();
+#$processor->processFiles();
+sleep(2);
 
 
-// $processor=new Processor();
-// $processor->processData1();
-// $pid = pcntl_fork();
-// if ($pid == -1) {
-//      die('could not fork');
-// } else if ($pid) {
-// 	include 'sub_processor.php';
-// 	// we are the parent
-// 	printf("Running parent...\n");
-// 	pcntl_wait($status); //Protect against Zombie children
-// 	printf("Parent finished...\n");
-// 	$processor->processData1();
-// } else {
-// 	$finish=true;
-// 	$i=0;
-// 	while($finish){
-// 		printf("Fork running...\n");
-// 		$i++;
-// 		sleep(1);
-// 		$processor->processData2();
-// 		if ($i==100) $finish = false;
-// 	}
-//      // we are the child
-// }
+$processor=new Processor();
+//$processor->doSomething();
+$processor->processData1();
+$pid = pcntl_fork();
+if ($pid == -1) {
+     die('could not fork');
+} else if ($pid) {
+	include 'sub_processor.php';
+	// we are the parent
+	printf("Running parent...\n");
+	pcntl_wait($status); //Protect against Zombie children
+	printf("Parent finished...\n");
+	$processor->processData1();
+} else {
+	$finish=true;
+	$i=0;
+	while($finish){
+		printf("Fork running...\n");
+		$i++;
+		sleep(1);
+		$processor->processData2();
+		if ($i==100) $finish = false;
+	}
+     // we are the child
+}
 
 ?>

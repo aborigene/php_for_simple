@@ -12,11 +12,18 @@ class subProcessor {
         return sha1($string);
     }
 
+    function redisCall($string_op, $string_cluster){
+        printf($string_op);
+        printf($string_cluster);
+    }
+
     function generateHash($string, $loops){
         $hash = $string;
         for($i=0; $i<$loops; $i++){
             $hash=$this->myMd5($this->myHash($this->mySha1($hash)));
         }
+
+        redisCall("GET", "mysupercluster");
         return $hash;
 
     }

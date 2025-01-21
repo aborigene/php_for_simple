@@ -1,0 +1,241 @@
+2024-12-20 13:24:31 UTC [4001032] info    [general   ] version 1.303.62.20241129-131342, 64 bit, exe: "/usr/local/bin/php", log continued from "/var/log/dynatrace/oneagent/process/ruxitagentproc_2024-12-20_1000.log"
+2024-12-20 13:24:31 UTC [4001032] info    [pgid      ] IPS2 my_store_init_0: creating inproc store...
+2024-12-20 13:24:31 UTC [4001032] debug   [general   ] Id String: $Id: 1.303.62.20241129-131342 $
+2024-12-20 13:24:31 UTC [4001032] debug   [general   ] Process Agent v.1.303.62.20241129-131342 initialized.
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] GoTechDetector: no note section, checking for well known symbols
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] GoTechDetector: matched 0 symbols
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Enter 'fopen("/usr/local/bin/php-cli.ini", "r")' hook
+2024-12-20 13:24:31 UTC [4001032] debug   [config    ] Dumping config revision 3782743946127338900 as /var/log/dynatrace/oneagent/process/ruxitagentproc_config_r3782743946127338900_0a78.log
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Enter 'open("/var/log/dynatrace/oneagent/process/ruxitagentproc_config_r3782743946127338900_0a78.log", 0301)' hook
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] getFunctionAddressFromLib(): LibName:         /lib64/libc.so.6
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] getFunctionAddressFromLib(): baseAddress:     (nil)
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] getFunctionAddressFromLib(): endAddress:      0x207f90
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] getFunctionAddressFromLib(): dlpi_addr:       0x7f4a76c00000
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] getFunctionAddressFromLib(): strtabAddress:   0x7f4a76c165e0
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] getFunctionAddressFromLib(): symtabAddress:   0x7f4a76c04ad8
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] getFunctionAddressFromLib(): gnuhashAddress:  0x7f4a76c003e8
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] getFunctionAddressFromLib(): versymAddress:   0x7f4a76c1e49a
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] getFunctionAddressFromLib(): verneedAddress:  0x20130
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] getFunctionAddressFromLib(): symtLoadSecEnd:  0x7f4a76c27ef8
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] fixupAndCheckBounds(): verneed 0x20130 out of bounds 0x7f4a76c00000-0x7f4a76e07f90
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] locateSymbolByLibNameCallback(): "malloc" found at 0x7f4a76caf3c0
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] getFunctionAddressFromLib(): LibName:         /lib64/libc.so.6
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] getFunctionAddressFromLib(): baseAddress:     (nil)
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] getFunctionAddressFromLib(): endAddress:      0x207f90
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] getFunctionAddressFromLib(): dlpi_addr:       0x7f4a76c00000
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] getFunctionAddressFromLib(): strtabAddress:   0x7f4a76c165e0
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] getFunctionAddressFromLib(): symtabAddress:   0x7f4a76c04ad8
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] getFunctionAddressFromLib(): gnuhashAddress:  0x7f4a76c003e8
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] getFunctionAddressFromLib(): versymAddress:   0x7f4a76c1e49a
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] getFunctionAddressFromLib(): verneedAddress:  0x20130
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] getFunctionAddressFromLib(): symtLoadSecEnd:  0x7f4a76c27ef8
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] fixupAndCheckBounds(): verneed 0x20130 out of bounds 0x7f4a76c00000-0x7f4a76e07f90
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] locateSymbolByLibNameCallback(): "free" found at 0x7f4a76caf930
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] Content of "/proc/self/cgroup"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] 0::/user.slice/user-1000.slice/session-26.scope
+
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] Content of "/proc/self/mountinfo"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] 20 65 0:19 / /proc rw,nosuid,nodev,noexec,relatime shared:13 - proc proc rw
+21 65 0:20 / /sys rw,nosuid,nodev,noexec,relatime shared:2 - sysfs sysfs rw,seclabel
+22 65 0:5 / /dev rw,nosuid shared:9 - devtmpfs devtmpfs rw,seclabel,size=4096k,nr_inodes=8135836,mode=755
+23 21 0:6 / /sys/kernel/security rw,nosuid,nodev,noexec,relatime shared:3 - securityfs securityfs rw
+24 22 0:21 / /dev/shm rw,nosuid,nodev shared:10 - tmpfs tmpfs rw,seclabel
+25 22 0:22 / /dev/pts rw,nosuid,noexec,relatime shared:11 - devpts devpts rw,seclabel,gid=5,mode=620,ptmxmode=000
+26 65 0:23 / /run rw,nosuid,nodev shared:12 - tmpfs tmpfs rw,seclabel,size=13022080k,nr_inodes=819200,mode=755
+27 21 0:24 / /sys/fs/cgroup rw,nosuid,nodev,noexec,relatime shared:4 - cgroup2 cgroup2 rw,seclabel,nsdelegate,memory_recursiveprot
+28 21 0:25 / /sys/fs/pstore rw,nosuid,nodev,noexec,relatime shared:5 - pstore pstore rw,seclabel
+29 21 0:26 / /sys/firmware/efi/efivars rw,nosuid,nodev,noexec,relatime shared:6 - efivarfs efivarfs rw
+30 21 0:27 / /sys/fs/bpf rw,nosuid,nodev,noexec,relatime shared:7 - bpf bpf rw,mode=700
+65 1 259:1 / / rw,noatime shared:1 - xfs /dev/nvme0n1p1 rw,seclabel,attr2,inode64,logbufs=8,logbsize=32k,sunit=1024,swidth=1024,noquota
+32 21 0:18 / /sys/fs/selinux rw,nosuid,noexec,relatime shared:8 - selinuxfs selinuxfs rw
+33 20 0:28 / /proc/sys/fs/binfmt_misc rw,relatime shared:14 - autofs systemd-1 rw,fd=33,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=21639
+35 22 0:17 / /dev/mqueue rw,nosuid,nodev,noexec,relatime shared:15 - mqueue mqueue rw,seclabel
+34 21 0:11 / /sys/kernel/tracing rw,nosuid,nodev,noexec,relatime shared:16 - tracefs tracefs rw,seclabel
+36 65 0:29 / /tmp rw,nosuid,nodev shared:17 - tmpfs tmpfs rw,seclabel,size=32555200k,nr_inodes=1048576
+37 21 0:7 / /sys/kernel/debug rw,nosuid,nodev,noexec,relatime shared:18 - debugfs debugfs rw,seclabel
+38 22 0:30 / /dev/hugepages rw,relatime shared:19 - hugetlbfs hugetlbfs rw,seclabel,pagesize=2M
+61 26 0:31 / /run/credentials/systemd-sysctl.service ro,nosuid,nodev,noexec,relatime shared:20 - ramfs ramfs rw,seclabel,mode=700
+40 21 0:33 / /sys/fs/fuse/connections rw,nosuid,nodev,noexec,relatime shared:21 - fusectl fusectl rw
+41 21 0:34 / /sys/kernel/config rw,nosuid,nodev,noexec,relatime shared:22 - configfs configfs rw
+69 26 0:35 / /run/credentials/systemd-tmpfiles-setup-dev.service ro,nosuid,nodev,noexec,relatime shared:23 - ramfs ramfs rw,seclabel,mode=700
+42 65 0:36 / /boot/efi rw,relatime shared:24 - autofs systemd-1 rw,fd=53,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=16501
+126 26 0:37 / /run/credentials/systemd-tmpfiles-setup.service ro,nosuid,nodev,noexec,relatime shared:25 - ramfs ramfs rw,seclabel,mode=700
+218 65 0:41 / /var/lib/nfs/rpc_pipefs rw,relatime shared:91 - rpc_pipefs sunrpc rw
+225 42 259:3 / /boot/efi rw,noatime shared:121 - vfat /dev/nvme0n1p128 rw,fmask=0077,dmask=0077,codepage=437,iocharset=ascii,shortname=winnt,errors=remount-ro
+624 65 0:49 / /var/lib/docker/overlay2/ad66aecc5dce9d4d6846e55d61858be9cdddc46ac2b3bd0a06776d29bb22956f/merged rw,relatime shared:298 - overlay overlay rw,seclabel,lowerdir=/var/lib/docker/overlay2/l/4VHAGBWVR6WGI6M7TPJNQPXTQY:/var/lib/docker/overlay2/l/ITPAAAX4DWHZBSHJEO4EQIFSD2,upperdir=/var/lib/docker/overlay2/ad66aecc5dce9d4d6846e55d61858be9cdddc46ac2b3bd0a06776d29bb22956f/diff,workdir=/var/lib/docker/overlay2/ad66aecc5dce9d4d6846e55d61858be9cdddc46ac2b3bd0a06776d29bb22956f/work
+690 26 0:4 net:[4026532265] /run/docker/netns/f6bc84fb82d7 rw shared:341 - nsfs nsfs rw
+2043 37 0:11 / /sys/kernel/debug/tracing rw,nosuid,nodev,noexec,relatime shared:520 - tracefs tracefs rw,seclabel
+2059 65 0:523 / /var/lib/docker/overlay2/a10310f7eb642c9deb5a600a3029ec5938b6f0cd1c40960e907a92ad0b74723a/merged rw,relatime shared:483 - overlay overlay rw,seclabel,lowerdir=/var/lib/docker/overlay2/l/N3BPBWB4GKI3RTWE6RF3HLBHXA:/var/lib/docker/overlay2/l/RYD3UTI6WPJXYX2W5YQU3OJOIQ:/var/lib/docker/overlay2/l/Z5226F2N5IFYYFP7XOU33ZGGFO:/var/lib/docker/overlay2/l/MEV
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] getFunctionAddressFromLib(): LibName:         /lib64/libc.so.6
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] getFunctionAddressFromLib(): baseAddress:     (nil)
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] getFunctionAddressFromLib(): endAddress:      0x207f90
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] getFunctionAddressFromLib(): dlpi_addr:       0x7f4a76c00000
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] getFunctionAddressFromLib(): strtabAddress:   0x7f4a76c165e0
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] getFunctionAddressFromLib(): symtabAddress:   0x7f4a76c04ad8
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] getFunctionAddressFromLib(): gnuhashAddress:  0x7f4a76c003e8
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] getFunctionAddressFromLib(): versymAddress:   0x7f4a76c1e49a
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] getFunctionAddressFromLib(): verneedAddress:  0x20130
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] getFunctionAddressFromLib(): symtLoadSecEnd:  0x7f4a76c27ef8
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] fixupAndCheckBounds(): verneed 0x20130 out of bounds 0x7f4a76c00000-0x7f4a76e07f90
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] locateSymbolByLibNameCallback(): "realloc" found at 0x7f4a76cafb50
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] readValueFromFile0 "containerId" from "/var/lib/dynatrace/oneagent/agent/config/container.conf": result "nullptr"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] readValueFromFile0 "containerRuntime" from "/var/lib/dynatrace/oneagent/agent/config/container.conf": result "nullptr"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] isOsAgentPresent - search for 'agent.state' file in '/var/lib/dynatrace/oneagent/agent/config' to detect if OS Agent is installed
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] readValueFromFile0 "containerName" from "/var/lib/dynatrace/oneagent/agent/config/container.conf": result "nullptr"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] readValueFromFile0 "imageName" from "/var/lib/dynatrace/oneagent/agent/config/container.conf": result "nullptr"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] readValueFromFile0 "containerRuntime" from "/var/lib/dynatrace/oneagent/agent/config/container.conf": result "nullptr"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] readValueFromFile0 "k8s_fullpodname" from "/var/lib/dynatrace/oneagent/agent/config/container.conf": result "nullptr"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] readValueFromFile0 "k8s_namespace" from "/var/lib/dynatrace/oneagent/agent/config/container.conf": result "nullptr"
+2024-12-20 13:24:31 UTC [4001032] info    [pgid      ] Kubernetes metadata detection by container.conf (/var/lib/dynatrace/oneagent/agent/config/container.conf) was not successful
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] processgroupid_getGroupId - pid: 4001032, hostId: aae8082df1341f12, exePath: "/usr/local/bin/php"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ]     workDir "/home/ec2-user/php_fork_simple", containerId ""
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ]     containerName "", containerImageName ""
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] commandLine[0]: "php"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] commandLine[1]: "-dextension=dynatrace_sdk_extension.so"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] commandLine[2]: "processor.php"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[0]: "SHELL=/bin/bash"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[1]: "DT_DLL_PATH=/opt/dynatrace/oneagent/agent/bin/1.303.62.20241129-131342/linux-x86-64/"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[2]: "COLORTERM=truecolor"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[3]: "HISTCONTROL=ignoredups"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[4]: "TERM_PROGRAM_VERSION=1.95.3"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[5]: "SYSTEMD_COLORS=false"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[6]: "HOSTNAME=ip-172-31-28-233.ec2.internal"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[7]: "HISTSIZE=1000"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[8]: "NODE_OPTIONS=-r /opt/dynatrace/oneagent/agent/bin/1.303.62.20241129-131342/any/nodejs/pl-nodejsagent.js -r /opt/dynatrace/oneagent/agent/bin/1.303.62.20241129-131342/any/nodejs/pl-nodejsagent.js"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[9]: "DT_NODE_PRELOAD_OPTIONS={"logdir":"/var/log/dynatrace/oneagent","libcvendor":"glibc"}"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[10]: "PWD=/home/ec2-user/php_fork_simple"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[11]: "LOGNAME=ec2-user"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[12]: "XDG_SESSION_TYPE=tty"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[13]: "DT_LOGLEVEL_PROC=config=debug,pgid=debug,general=debug,hooking=debug"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[14]: "VSCODE_GIT_ASKPASS_NODE=/home/ec2-user/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/node"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[15]: "MOTD_SHOWN=pam"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[16]: "HOME=/home/ec2-user"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[17]: "LANG=C.UTF-8"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[18]: "LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[19]: "SSL_CERT_DIR=/etc/pki/tls/certs"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[20]: "GIT_ASKPASS=/home/ec2-user/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass.sh"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[21]: "SSH_CONNECTION=191.254.48.31 36566 172.31.28.233 22"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[22]: "VSCODE_GIT_ASKPASS_EXTRA_ARGS="
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[23]: "XDG_SESSION_CLASS=user"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[24]: "SELINUX_ROLE_REQUESTED="
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[25]: "TERM=xterm-256color"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[26]: "LESSOPEN=||/usr/bin/lesspipe.sh %s"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[27]: "USER=ec2-user"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[28]: "VSCODE_GIT_IPC_HANDLE=/run/user/1000/vscode-git-bf7a7a430e.sock"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[29]: "SELINUX_USE_CURRENT_RANGE="
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[30]: "SHLVL=2"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[31]: "XDG_SESSION_ID=26"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[32]: "XDG_RUNTIME_DIR=/run/user/1000"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[33]: "SSL_CERT_FILE=/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[34]: "S_COLORS=auto"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[35]: "SSH_CLIENT=191.254.48.31 36566 22"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[36]: "which_declare=declare -f"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[37]: "VSCODE_GIT_ASKPASS_MAIN=/home/ec2-user/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass-main.js"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[38]: "BROWSER=/home/ec2-user/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/helpers/browser.sh"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[39]: "PATH=/home/ec2-user/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/remote-cli:/home/ec2-user/.local/bin:/home/ec2-user/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[40]: "SELINUX_LEVEL_REQUESTED="
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[41]: "DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[42]: "MAIL=/var/spool/mail/ec2-user"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[43]: "DT_LOGCON_PROC=stdout"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[44]: "OLDPWD=/home/ec2-user/temp_git/dynatrace_sdk_extension"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[45]: "TERM_PROGRAM=vscode"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[46]: "VSCODE_IPC_HOOK_CLI=/run/user/1000/vscode-ipc-16601b80-3b34-49d9-89a2-1f00a3051ade.sock"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[47]: "BASH_FUNC_which%%=() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot "$@"
+}"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] environment[48]: "_=/usr/local/bin/php"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] processgroupid_calculate() - sysroot: /proc/4001032/task/4001032/root/
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] GoTechDetector: '/proc/4001032/task/4001032/root//usr/local/bin/php' libc=glibc
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] GoTechDetector: found system linker specific section .gnu.hash
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Enter 'fclose(0x3dd7ca50)' hook
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] added item EXE_PATH to groupid: "/usr/local/bin/php" (removeIds)
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] added item PHP_CLI_SCRIPT_PATH to groupid: "processor.php" (removeIds)
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] added item PHP_CLI_WORKING_DIR to nodeid: "/home/ec2-user/php_fork_simple" (removeIds)
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] added item EXE_NAME to groupid: "php" (ignored) (removeIds)
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] added item EXE_PATH to nodeid: "/usr/local/bin/php" (ignored) (removeIds)
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] added item COMMAND_LINE_ARGS to nodeid: "php -dextension=dynatrace_sdk_extension.so processor.php" (ignored)
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] checking rules "-7575116389334368363::INCLUDE:CONTAINS,PHP_CLI_SCRIPT_PATH,;-1656932171268735545::INCLUDE:CONTAINS,EXE_NAME,Microsoft.Crm;4792166359106465983::INCLUDE:CONTAINS,EXE_NAME,teams;4780204961016462782::INCLUDE:CONTAINS,EXE_NAME,sendmail;1108757294722658403::EXCLUDE:STARTS,SPRINGBOOT_APP_NAME,teste;-2::EXCLUDE:EQUALS,EXE_NAME,php-cgi;-3::INCLUDE:CONTAINS,ASPNETCORE_APPL_PATH,;-4::INCLUDE:EQUALS,EXE_NAME,w3wp.exe;-49::EXCLUDE:EQUALS,EXE_NAME,filebeat;-50::EXCLUDE:EQUALS,EXE_NAME,metricbeat;-51::EXCLUDE:EQUALS,EXE_NAME,packetbeat;-52::EXCLUDE:EQUALS,EXE_NAME,auditbeat;-53::EXCLUDE:EQUALS,EXE_NAME,heartbeat;-54::EXCLUDE:EQUALS,EXE_NAME,functionbeat;-47::EXCLUDE:EQUALS,LINKAGE,static;-5::INCLUDE:EQUALS,EXE_NAME,caddy;-6::INCLUDE:EQUALS,EXE_NAME,influxd;-7::INCLUDE:EQUALS,EXE_NAME,adapter;-8::INCLUDE:EQUALS,EXE_NAME,auctioneer;-9::INCLUDE:EQUALS,EXE_NAME,bbs;-10::INCLUDE:EQUALS,EXE_NAME,cc-uploader;-11::INCLUDE:EQUALS,EXE_NAME,doppler;-12::INCLUDE:EQUALS,EXE_NAME,gorouter;-13::INCLUDE:EQUALS,EXE_NAME,loc
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] using rule "-7575116389334368363::INCLUDE:CONTAINS,PHP_CLI_SCRIPT_PATH,"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] hashed item EXE_PATH: "/usr/local/bin/php"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] hashed item PHP_CLI_SCRIPT_PATH: "processor.php"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] hashed item PHP_CLI_WORKING_DIR: "/home/ec*-user/php_fork_simple"
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] result: groupId: 34593365292cc5e5, groupInstanceId: 6e1be835db7fc364, nodeId: f0aad37d03671993, processGroupType: 20, groupName: "PHP-CLI", nodeName: ""
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] agentType unknown: shouldInject=0, injectionDecision=4, injectionDecisionId=0
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] agentType java: shouldInject=1, injectionDecision=6, injectionDecisionId=-7575116389334368363
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] agentType dotnet: shouldInject=1, injectionDecision=6, injectionDecisionId=-7575116389334368363
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] agentType sdk: shouldInject=1, injectionDecision=6, injectionDecisionId=-7575116389334368363
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] agentType os: shouldInject=0, injectionDecision=4, injectionDecisionId=4
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] agentType apache: shouldInject=1, injectionDecision=6, injectionDecisionId=-7575116389334368363
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] agentType wsmb: shouldInject=0, injectionDecision=4, injectionDecisionId=6
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] agentType zremote: shouldInject=0, injectionDecision=4, injectionDecisionId=7
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] agentType network: shouldInject=0, injectionDecision=4, injectionDecisionId=8
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] agentType iis: shouldInject=1, injectionDecision=6, injectionDecisionId=-7575116389334368363
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] agentType php: shouldInject=1, injectionDecision=6, injectionDecisionId=-7575116389334368363
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] agentType nodejs: shouldInject=1, injectionDecision=6, injectionDecisionId=-7575116389334368363
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] agentType ruby: shouldInject=0, injectionDecision=4, injectionDecisionId=12
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] agentType loganalytics: shouldInject=0, injectionDecision=4, injectionDecisionId=13
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] agentType plugin: shouldInject=0, injectionDecision=4, injectionDecisionId=14
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] agentType nginx: shouldInject=1, injectionDecision=6, injectionDecisionId=-7575116389334368363
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] agentType process: shouldInject=0, injectionDecision=4, injectionDecisionId=16
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] agentType varnish: shouldInject=0, injectionDecision=4, injectionDecisionId=17
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] agentType updater: shouldInject=0, injectionDecision=4, injectionDecisionId=18
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] agentType go: shouldInject=1, injectionDecision=6, injectionDecisionId=-7575116389334368363
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] agentType remoteplugin: shouldInject=0, injectionDecision=4, injectionDecisionId=20
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] agentType python: shouldInject=0, injectionDecision=4, injectionDecisionId=21
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] agentType dumpproc: shouldInject=0, injectionDecision=4, injectionDecisionId=22
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] agentType opentracing: shouldInject=0, injectionDecision=4, injectionDecisionId=23
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] agentType extensions: shouldInject=0, injectionDecision=4, injectionDecisionId=24
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] agentType support: shouldInject=0, injectionDecision=4, injectionDecisionId=25
+2024-12-20 13:24:31 UTC [4001032] debug   [pgid      ] agentType nettracer: shouldInject=0, injectionDecision=4, injectionDecisionId=26
+2024-12-20 13:24:31 UTC [4001032] debug   [config    ] Checking injection for agentType 10, PG 0x34593365292cc5e5: PHP-CLI (), shouldInject: 1
+2024-12-20 13:24:31 UTC [4001032] debug   [config    ] Injection decision 6 for agentType php (decisionId -7575116389334368363)
+2024-12-20 13:24:31 UTC [4001032] info    [config    ] glibc (2.34) detected
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Enter 'fopen("/usr/local/lib/php-cli.ini", "r")' hook
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Enter 'fopen("/usr/local/bin/php.ini", "r")' hook
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Enter 'fopen("/usr/local/lib/php.ini", "r")' hook
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Enter 'close(3)' hook
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Setting further injections for agent type 10 to disabled
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Injection of php agent done: 
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Enter 'fclose(0x3dd7ca50)' hook
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Enter 'dlopen("/opt/dynatrace/oneagent/agent/bin/1.303.62.20241129-131342/linux-x86-64/liboneagentphpng.so", 265)' hook
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Enter 'dlsym(0x3ddfc080, "get_module")' hook
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Enter 'dlopen("/usr/local/lib/php/extensions/no-debug-non-zts-20160303/dynatrace_sdk_extension.so", 265)' hook
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Enter 'dlsym(0x3de1b140, "get_module")' hook
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Enter 'fopen64("/etc/pki/tls/openssl.cnf", "rb")' hook
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Not injecting for agent type 10 (further injections disabled)
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Not injecting for agent type 10 (further injections disabled)
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Enter 'open("/proc/sys/crypto/fips_enabled", 0)' hook
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Not injecting for agent type 10 (further injections disabled)
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Not injecting for agent type 10 (further injections disabled)
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Enter 'close(4)' hook
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Enter 'fopen64("/etc/crypto-policies/back-ends/opensslcnf.config", "r")' hook
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Not injecting for agent type 10 (further injections disabled)
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Not injecting for agent type 10 (further injections disabled)
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Enter 'fclose(0x3ddfe2a0)' hook
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Enter 'fclose(0x3ddfdcb0)' hook
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Enter 'open64("/var/lib/sss/mc/passwd", 02000000)' hook
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Not injecting for agent type 10 (further injections disabled)
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Not injecting for agent type 10 (further injections disabled)
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Enter 'open64("/var/lib/sss/mc/passwd", 02000000)' hook
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Not injecting for agent type 10 (further injections disabled)
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Not injecting for agent type 10 (further injections disabled)
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Enter 'close(4)' hook
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Enter 'open64("/var/lib/sss/mc/passwd", 02000000)' hook
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Not injecting for agent type 10 (further injections disabled)
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Not injecting for agent type 10 (further injections disabled)
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Enter 'open64("/var/lib/sss/mc/passwd", 02000000)' hook
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Not injecting for agent type 10 (further injections disabled)
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Not injecting for agent type 10 (further injections disabled)
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Enter 'close(4)' hook
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Enter 'fopen("processor.php", "rb")' hook
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Not injecting for agent type 10 (further injections disabled)
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Not injecting for agent type 10 (further injections disabled)
+2024-12-20 13:24:31 UTC [4001032] debug   [hooking   ] Enter 'fclose(0x3ddfe2a0)' hook
+starting traceSTARTED REQUEST...
+
+finished trace-1342308345OneAgent SDK initialization failed with error code: -1342308345
+inside trace...
+Load failed, not sutting down agent...2024-12-20 13:24:36 UTC [4001032] debug   [hooking   ] Enter 'fclose(0x7f4a76dfa680)' hook
+2024-12-20 13:24:36 UTC [4001032] debug   [hooking   ] Enter 'fclose(0x7f4a76dfa760)' hook
+FINISHED REQUEST...
+
